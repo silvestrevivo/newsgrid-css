@@ -151,7 +151,6 @@ p{
   color: #fff;
 }
 
-
 .bg-secondary{
   background: var(--secondary-color);
   color: #fff;
@@ -179,6 +178,10 @@ p{
 
 .p-3{
   padding: 3rem;
+}
+
+.l-heading{
+  font-size: 3rem;
 }
 
 .page-container{
@@ -295,9 +298,20 @@ p{
   align-items: center;
 }
 
-
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
