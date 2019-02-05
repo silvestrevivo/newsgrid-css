@@ -13,7 +13,7 @@
   --tech-color: #009cff;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* Reset */
 *{
@@ -181,6 +181,17 @@ p{
   padding: 3rem;
 }
 
+.page-container{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child{
+  grid-row: 1 / span 3;
+}
+
 /* Navigation */
 #main-nav{
   background: #fff;
@@ -326,3 +337,4 @@ p{
 #main-footer .footer-container input[type='submit']{
   width: 90%;
 }
+
